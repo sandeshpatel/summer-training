@@ -1,0 +1,21 @@
+always provide a contact in the README file / email should be  obfuscated like author AT shakthimaan DOT com/ 
+The README should also say how to use the project.
+ For nouns, always start with capital letter
+include a license file
+Depending on the license you use, you should include the license as a header in the code, or can keep it as a separat file in the project sources
+have a separate INSTALL file that gives you instructions on how to install the software for use
+file names should be time-stamped if applicable
+name should describe the content
+Some projects keep a CHANGELOG file or release notes so users can quickly refer to that. Since there are no releases made in this project this is fine
+If you decide to put the license in the code itself, you will also put your name, Copyright, year information as a comment header in the top of the file
+write a guide for user of program
+. Whenever any user input is fetched, some validation needs to be done
+10. Reading the input could have been written as a separate function which does only one thing that is to get the required input from the user
+Try to be meaningful and give good feedback to the user when writing software
+It is good to separate different functionality into small functions. In the *nix philosophy, each function should do one thing and does it well
+it is good to describe the input of an operation
+When you split your logic into functions, you can write commentns and docstrings
+you can also write test in them, or create a separate unit test file to test your functions
+When doing a network call, things can fail; so, having a try catch block is helpful in this context
+. It is a good practice to be consistent on what we return on success and failure from a function
+ In general, it is good te separate functions that do IO and functions where you operate data with
